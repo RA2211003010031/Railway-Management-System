@@ -14,5 +14,5 @@ That is:-
 - 2. To search the trains it’s arrival and departure time,distance between source and destination. 
 - 3. To check the availability of the ticket. 
 - 4. To calculate fare. 
-- 5.To book the ticket. 
-- 6.To cancel the ticket if necessary
+- 5. To book the ticket. 
+- 6. To cancel the ticket if necessary
