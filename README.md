@@ -1,47 +1,62 @@
-## RAILWAY MANAGEMENT SYSTEM
+# Railway Reservation System
 
-# RAILWAY RESERVATION SYSTEM should be able to manage all the reservation related functions.
-- Each zone should have same functionalities. Each zone will stores the information about train name, Train schedules, availability. 
-- The administrator should be able to enter any change related to the train information like change in train name, number etc. 
-- The system should be able to reserve seat in a train for a passenger. 
-- First the clerk will check for availability for the seats in a particular train on a specified date of journey. 
-- If it is available the clerk will reserve seats. 
-- The passenger will be given a unique PNR no. 
-- The system should be able to cancel a reservation. 
-- The clerk will delete the entries in the system. 
-- The passenger can check their reservation status online by entering their PNR no. 
-- The system will display his current status like confirmed, RAC or waiting list. 
-- They are also able to see information related to the train schedules.
-- The system should be able to print the report like it should be able to generate reservation chart, train report, reservation ticket which will have train no and name, date of journey, boarding station, destination station, person name, age, [censored], total fare and a unique PNR no. 
-- The system should be able to print the cancellation ticket which will have total fare and the amount deducted.
- 
-- The main aim of the project was to develop a website which would facilitate the reservation of online air tickets through an effective and yet simple GUI for a normal passenger intending to travel in airways. 
-- Apart from reserving tickets, through our system a passenger can compare online fares ‘from’ various cities ‘to’ various cities.
--
-# Brief overview of the technology:
-- Front end: HTML, CSS, JavaScript
+## Overview
+The **Railway Reservation System** is designed to manage all reservation-related functions efficiently. It enables passengers to book train tickets, check seat availability, view train schedules, and track their reservation status online.
 
-- HTML: HTML is used to create and save web document. E.g. Notepad/Notepad++
-- CSS : (Cascading Style Sheets) Create attractive Layout
-- Bootstrap : responsive design mobile freindly site
-- JavaScript: it is a programming language, commonly use with web browsers.
-- Back end: PHP, MySQL
+Each zone in the system maintains:
+- **Train Information** (Train name, schedule, availability, etc.)
+- **Administrator Controls** (Modify train details like name, number, etc.)
+- **Seat Reservation** (Check availability and reserve seats for passengers)
+- **Unique PNR Generation** (A Passenger Name Record is assigned upon booking)
+- **Reservation Cancellation** (Manage and delete bookings)
+- **Online Reservation Status Check** (Passengers can check if their ticket is confirmed, RAC, or on the waiting list)
+- **Reports & Ticket Printing** (Generate reservation charts, train reports, and tickets with details like train number, journey date, fare, and passenger details)
+- **Cancellation Ticket Printing** (Displays fare deductions and refund amounts)
 
-- PHP: Hypertext Preprocessor (PHP) is a technology that allows software developers to create dynamically generated web pages, in HTML, XML, or other document types, as per client request. PHP is open source software.
-- MySQL: MySql is a database, widely used for accessing querying, updating, and managing data in databases.
-- Software Requirement(any one)
-- WAMP Server
-- XAMPP Server
-- MAMP Server
-- LAMP Server
+## Features
+- **User-friendly Web Interface** for seamless ticket booking
+- **Real-time Seat Availability Checking**
+- **Secure and Efficient Database Management**
+- **Dynamic Reports & Ticket Generation**
+- **Admin Panel for System Management**
 
-# Installation Steps
-- 1. Download zip file and Unzip file on your local server.
-- 2. Put this file inside "c:/wamp/www/" .
-- 3. Database Configuration
-- Open phpmyadmin
-- Create Database named railres.
-- Import database railres.sql from downloaded folder(inside database)
-- 4. Open Your browser put inside "http://localhost/railway reservation system in php/"
+---
+## Technologies Used
+### Front-end:
+- **HTML** – Structure web pages
+- **CSS** – Style the web pages
+- **Bootstrap** – Ensure responsive and mobile-friendly design
+- **JavaScript** – Enhance user interactions
 
-# THANK YOU
+### Back-end:
+- **PHP** – Handles server-side logic and database interaction
+- **MySQL** – Database for storing reservation records and train schedules
+
+### Software Requirements (Any one):
+- **WAMP Server**
+- **XAMPP Server**
+- **MAMP Server**
+- **LAMP Server**
+
+---
+## Installation Steps
+1. **Download** the project ZIP file and extract it to your local server directory.
+2. **Place the extracted folder** inside `c:/wamp/www/` (or the respective directory of your local server).
+3. **Database Configuration:**
+   - Open **phpMyAdmin**.
+   - Create a new database named **railres**.
+   - Import `railres.sql` from the downloaded folder (inside the `database` directory).
+4. **Run the Project:**
+   - Open your web browser.
+   - Navigate to `http://localhost/railway-reservation-system/`
+
+---
+## Additional Features (Future Enhancements)
+- **Online Payment Integration**
+- **Mobile Application Support**
+- **Automated Email & SMS Notifications**
+- **AI-based Seat Suggestions**
+
+---
+## Thank You! 🚆🎫
+For any issues or queries, feel free to contact the development team. Happy Traveling! 😊
